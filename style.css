@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #f7f9fb;
+  color: #222;
+  text-align: center;
+}
+
+header {
+  background: #111827;
+  color: white;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  height: 40px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.whatsapp-btn {
+  background: #25D366;
+  color: white;
+  padding: 8px 14px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.hero {
+  background: linear-gradient(135deg, #4f46e5, #6366f1);
+  color: white;
+  padding: 60px 20px;
+}
+
+.cta-btn {
+  background: white;
+  color: #4f46e5;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+section {
+  padding: 50px 20px;
+}
+
+.service-card {
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px auto;
+  max-width: 400px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.feedback {
+  background: #f0f2f5;
+  border-left: 5px solid #4f46e5;
+  margin: 20px auto;
+  max-width: 500px;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.upi-qr {
+  width: 150px;
+  margin: 10px 0;
+}
+
+footer {
+  background: #111827;
+  color: white;
+  padding: 20px;
+  font-size: 14px;
+}
